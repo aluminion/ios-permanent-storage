@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B76579E61D009D9100FC2C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76579E51D009D9100FC2C71 /* AppDelegate.swift */; };
+		B76579E81D009D9100FC2C71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76579E71D009D9100FC2C71 /* ViewController.swift */; };
+		B76579EB1D009D9100FC2C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76579E91D009D9100FC2C71 /* Main.storyboard */; };
+		B76579ED1D009D9100FC2C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76579EC1D009D9100FC2C71 /* Assets.xcassets */; };
+		B76579F01D009D9100FC2C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76579EE1D009D9100FC2C71 /* LaunchScreen.storyboard */; };
+		B76579FB1D009D9100FC2C71 /* ios_permanent_storageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76579FA1D009D9100FC2C71 /* ios_permanent_storageTests.swift */; };
+		B7657A061D009D9100FC2C71 /* ios_permanent_storageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7657A051D009D9100FC2C71 /* ios_permanent_storageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B76579F71D009D9100FC2C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76579DA1D009D9100FC2C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B76579E11D009D9100FC2C71;
+			remoteInfo = "ios-permanent-storage";
+		};
+		B7657A021D009D9100FC2C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76579DA1D009D9100FC2C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B76579E11D009D9100FC2C71;
+			remoteInfo = "ios-permanent-storage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B76579E21D009D9100FC2C71 /* ios-permanent-storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-permanent-storage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76579E51D009D9100FC2C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B76579E71D009D9100FC2C71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B76579EA1D009D9100FC2C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B76579EC1D009D9100FC2C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B76579EF1D009D9100FC2C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B76579F11D009D9100FC2C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76579F61D009D9100FC2C71 /* ios-permanent-storageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-permanent-storageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76579FA1D009D9100FC2C71 /* ios_permanent_storageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_permanent_storageTests.swift; sourceTree = "<group>"; };
+		B76579FC1D009D9100FC2C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7657A011D009D9100FC2C71 /* ios-permanent-storageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-permanent-storageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7657A051D009D9100FC2C71 /* ios_permanent_storageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_permanent_storageUITests.swift; sourceTree = "<group>"; };
+		B7657A071D009D9100FC2C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B76579DF1D009D9100FC2C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76579F31D009D9100FC2C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76579FE1D009D9100FC2C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B76579D91D009D9100FC2C71 = {
+			isa = PBXGroup;
+			children = (
+				B76579E41D009D9100FC2C71 /* ios-permanent-storage */,
+				B76579F91D009D9100FC2C71 /* ios-permanent-storageTests */,
+				B7657A041D009D9100FC2C71 /* ios-permanent-storageUITests */,
+				B76579E31D009D9100FC2C71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B76579E31D009D9100FC2C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76579E21D009D9100FC2C71 /* ios-permanent-storage.app */,
+				B76579F61D009D9100FC2C71 /* ios-permanent-storageTests.xctest */,
+				B7657A011D009D9100FC2C71 /* ios-permanent-storageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76579E41D009D9100FC2C71 /* ios-permanent-storage */ = {
+			isa = PBXGroup;
+			children = (
+				B76579E51D009D9100FC2C71 /* AppDelegate.swift */,
+				B76579E71D009D9100FC2C71 /* ViewController.swift */,
+				B76579E91D009D9100FC2C71 /* Main.storyboard */,
+				B76579EC1D009D9100FC2C71 /* Assets.xcassets */,
+				B76579EE1D009D9100FC2C71 /* LaunchScreen.storyboard */,
+				B76579F11D009D9100FC2C71 /* Info.plist */,
+			);
+			path = "ios-permanent-storage";
+			sourceTree = "<group>";
+		};
+		B76579F91D009D9100FC2C71 /* ios-permanent-storageTests */ = {
+			isa = PBXGroup;
+			children = (
+				B76579FA1D009D9100FC2C71 /* ios_permanent_storageTests.swift */,
+				B76579FC1D009D9100FC2C71 /* Info.plist */,
+			);
+			path = "ios-permanent-storageTests";
+			sourceTree = "<group>";
+		};
+		B7657A041D009D9100FC2C71 /* ios-permanent-storageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7657A051D009D9100FC2C71 /* ios_permanent_storageUITests.swift */,
+				B7657A071D009D9100FC2C71 /* Info.plist */,
+			);
+			path = "ios-permanent-storageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B76579E11D009D9100FC2C71 /* ios-permanent-storage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7657A0A1D009D9100FC2C71 /* Build configuration list for PBXNativeTarget "ios-permanent-storage" */;
+			buildPhases = (
+				B76579DE1D009D9100FC2C71 /* Sources */,
+				B76579DF1D009D9100FC2C71 /* Frameworks */,
+				B76579E01D009D9100FC2C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-permanent-storage";
+			productName = "ios-permanent-storage";
+			productReference = B76579E21D009D9100FC2C71 /* ios-permanent-storage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B76579F51D009D9100FC2C71 /* ios-permanent-storageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7657A0D1D009D9100FC2C71 /* Build configuration list for PBXNativeTarget "ios-permanent-storageTests" */;
+			buildPhases = (
+				B76579F21D009D9100FC2C71 /* Sources */,
+				B76579F31D009D9100FC2C71 /* Frameworks */,
+				B76579F41D009D9100FC2C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76579F81D009D9100FC2C71 /* PBXTargetDependency */,
+			);
+			name = "ios-permanent-storageTests";
+			productName = "ios-permanent-storageTests";
+			productReference = B76579F61D009D9100FC2C71 /* ios-permanent-storageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7657A001D009D9100FC2C71 /* ios-permanent-storageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7657A101D009D9100FC2C71 /* Build configuration list for PBXNativeTarget "ios-permanent-storageUITests" */;
+			buildPhases = (
+				B76579FD1D009D9100FC2C71 /* Sources */,
+				B76579FE1D009D9100FC2C71 /* Frameworks */,
+				B76579FF1D009D9100FC2C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7657A031D009D9100FC2C71 /* PBXTargetDependency */,
+			);
+			name = "ios-permanent-storageUITests";
+			productName = "ios-permanent-storageUITests";
+			productReference = B7657A011D009D9100FC2C71 /* ios-permanent-storageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B76579DA1D009D9100FC2C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lucas Le";
+				TargetAttributes = {
+					B76579E11D009D9100FC2C71 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B76579F51D009D9100FC2C71 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B76579E11D009D9100FC2C71;
+					};
+					B7657A001D009D9100FC2C71 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B76579E11D009D9100FC2C71;
+					};
+				};
+			};
+			buildConfigurationList = B76579DD1D009D9100FC2C71 /* Build configuration list for PBXProject "ios-permanent-storage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B76579D91D009D9100FC2C71;
+			productRefGroup = B76579E31D009D9100FC2C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B76579E11D009D9100FC2C71 /* ios-permanent-storage */,
+				B76579F51D009D9100FC2C71 /* ios-permanent-storageTests */,
+				B7657A001D009D9100FC2C71 /* ios-permanent-storageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B76579E01D009D9100FC2C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76579F01D009D9100FC2C71 /* LaunchScreen.storyboard in Resources */,
+				B76579ED1D009D9100FC2C71 /* Assets.xcassets in Resources */,
+				B76579EB1D009D9100FC2C71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76579F41D009D9100FC2C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76579FF1D009D9100FC2C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B76579DE1D009D9100FC2C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76579E81D009D9100FC2C71 /* ViewController.swift in Sources */,
+				B76579E61D009D9100FC2C71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76579F21D009D9100FC2C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76579FB1D009D9100FC2C71 /* ios_permanent_storageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76579FD1D009D9100FC2C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7657A061D009D9100FC2C71 /* ios_permanent_storageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B76579F81D009D9100FC2C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B76579E11D009D9100FC2C71 /* ios-permanent-storage */;
+			targetProxy = B76579F71D009D9100FC2C71 /* PBXContainerItemProxy */;
+		};
+		B7657A031D009D9100FC2C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B76579E11D009D9100FC2C71 /* ios-permanent-storage */;
+			targetProxy = B7657A021D009D9100FC2C71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B76579E91D009D9100FC2C71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B76579EA1D009D9100FC2C71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B76579EE1D009D9100FC2C71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B76579EF1D009D9100FC2C71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7657A081D009D9100FC2C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7657A091D009D9100FC2C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7657A0B1D009D9100FC2C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-permanent-storage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.lehuy.ios-permanent-storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7657A0C1D009D9100FC2C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-permanent-storage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.lehuy.ios-permanent-storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7657A0E1D009D9100FC2C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-permanent-storageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.lehuy.ios-permanent-storageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-permanent-storage.app/ios-permanent-storage";
+			};
+			name = Debug;
+		};
+		B7657A0F1D009D9100FC2C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-permanent-storageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.lehuy.ios-permanent-storageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-permanent-storage.app/ios-permanent-storage";
+			};
+			name = Release;
+		};
+		B7657A111D009D9100FC2C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ios-permanent-storageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.lehuy.ios-permanent-storageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ios-permanent-storage";
+			};
+			name = Debug;
+		};
+		B7657A121D009D9100FC2C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ios-permanent-storageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.lehuy.ios-permanent-storageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ios-permanent-storage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B76579DD1D009D9100FC2C71 /* Build configuration list for PBXProject "ios-permanent-storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7657A081D009D9100FC2C71 /* Debug */,
+				B7657A091D009D9100FC2C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7657A0A1D009D9100FC2C71 /* Build configuration list for PBXNativeTarget "ios-permanent-storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7657A0B1D009D9100FC2C71 /* Debug */,
+				B7657A0C1D009D9100FC2C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7657A0D1D009D9100FC2C71 /* Build configuration list for PBXNativeTarget "ios-permanent-storageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7657A0E1D009D9100FC2C71 /* Debug */,
+				B7657A0F1D009D9100FC2C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7657A101D009D9100FC2C71 /* Build configuration list for PBXNativeTarget "ios-permanent-storageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7657A111D009D9100FC2C71 /* Debug */,
+				B7657A121D009D9100FC2C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B76579DA1D009D9100FC2C71 /* Project object */;
+}
